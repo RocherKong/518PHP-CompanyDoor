@@ -1,0 +1,352 @@
+[ 2015-01-20T09:39:06+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005262s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000351s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.020146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008105s ]
+
+[ 2015-01-20T09:39:10+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005612s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000306s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.020282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030578s ]
+
+[ 2015-01-20T09:39:10+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=code&code_len=4&font_size=14&width=100&height=28&code=1421717950
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.008212s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000388s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.025932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2015-01-20T09:39:25+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=login&dosubmit=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005334s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000299s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.019558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021069s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.031064s ]
+SQL: SHOW COLUMNS FROM `app_times` [ RunTime:0.019682s ]
+SQL: SELECT * FROM `app_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT * FROM `app_times` WHERE ( `username` = 'admin' ) AND ( `isadmin` = 1 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: DELETE FROM `app_times` WHERE ( `username` = 'admin' ) [ RunTime:0.000386s ]
+SQL: UPDATE `app_admin` SET `lastloginip`='127.0.0.1',`lastlogintime`=1421717965 WHERE ( `userid` = 1 ) [ RunTime:0.000593s ]
+
+[ 2015-01-20T09:39:25+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005253s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000274s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.021528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023098s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.005379s ]
+SQL: SHOW COLUMNS FROM `app_menu` [ RunTime:0.011792s ]
+SQL: SHOW COLUMNS FROM `app_admin_role` [ RunTime:0.013018s ]
+SQL: SELECT `userid`,`username`,`roleid`,`encrypt`,`lastloginip`,`lastlogintime`,`email`,`realname` FROM `app_admin` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT `rolename` FROM `app_admin_role` WHERE ( `roleid` = 1 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `parentid` = 0 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.016436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2015-01-20T09:39:29+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=public_main&_=1421717966298
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.009189s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.008870s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.040163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041744s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.005681s ]
+SQL: SHOW COLUMNS FROM `app_admin_role` [ RunTime:0.005257s ]
+SQL: SELECT `userid`,`username`,`roleid`,`encrypt`,`lastloginip`,`lastlogintime`,`email`,`realname` FROM `app_admin` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.001715s ]
+SQL: SELECT `rolename` FROM `app_admin_role` WHERE ( `roleid` = 1 ) LIMIT 1   [ RunTime:0.000442s ]
+NOTIC: [2048] Non-static method Admin\Common\Sysinfo::getinfo() should not be called statically, assuming $this from incompatible context D:\wamp\www\app\App\Admin\Controller\IndexController.class.php 第 110 行.
+NOTIC: [2048] Non-static method Admin\Common\Sysinfo::sys_windows() should not be called statically, assuming $this from incompatible context D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 19 行.
+NOTIC: [2048] Non-static method Admin\Common\Sysinfo::GetWMI() should not be called statically, assuming $this from incompatible context D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 250 行.
+NOTIC: [2] reset() expects parameter 1 to be array, object given D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 300 行.
+NOTIC: [2048] Non-static method Admin\Common\Sysinfo::GetWMI() should not be called statically, assuming $this from incompatible context D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 262 行.
+NOTIC: [2] reset() expects parameter 1 to be array, object given D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 300 行.
+NOTIC: [2048] Non-static method Admin\Common\Sysinfo::GetWMI() should not be called statically, assuming $this from incompatible context D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 285 行.
+NOTIC: [2] reset() expects parameter 1 to be array, object given D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 300 行.
+NOTIC: [2048] Non-static method Admin\Common\Sysinfo::GetWMI() should not be called statically, assuming $this from incompatible context D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 288 行.
+NOTIC: [2] reset() expects parameter 1 to be array, object given D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 300 行.
+NOTIC: [8] Undefined index: memCached D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memRealPercent D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memCachedPercent D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapTotal D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapUsed D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapFree D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapPercent D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [2] file(/proc/net/dev) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 33 行.
+NOTIC: [8] Undefined index: memBuffers D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 68 行.
+NOTIC: [8] Undefined index: memRealUsed D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 73 行.
+NOTIC: [8] Undefined index: memRealFree D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 6 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 87 行.
+NOTIC: [8] Undefined offset: 8 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 88 行.
+NOTIC: [8] Undefined offset: 9 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 89 行.
+NOTIC: [8] Undefined offset: 10 D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 90 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 91 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 92 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 93 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 94 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 95 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 96 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 97 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 98 行.
+NOTIC: [8] Undefined variable: NetInput D:\wamp\www\app\App\Admin\Common\Sysinfo.class.php 第 99 行.
+NOTIC: [2] file(/proc/net/dev) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory D:\wamp\www\app\App\Admin\Controller\IndexController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004102s ]
+
+[ 2015-01-20T09:39:29+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.007048s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000273s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.026933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029969s ]
+SQL: SHOW COLUMNS FROM `app_menu` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `parentid` = 1 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000950s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `parentid` = 6 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000522s ]
+
+[ 2015-01-20T09:39:30+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003220s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005898s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000858s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.029428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033912s ]
+SQL: SHOW COLUMNS FROM `app_menu` [ RunTime:0.007424s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `parentid` = 3 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000566s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `parentid` = 34 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000454s ]
+
+[ 2015-01-20T09:39:32+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=index&menuid=35&_=1421717972165
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005962s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000303s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.028321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032169s ]
+SQL: SHOW COLUMNS FROM `app_menu` [ RunTime:0.005560s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `id` = 35 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `id` = 34 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `app_menu` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000369s ]
+NOTIC: [8] Use of undefined constant currentpos - assumed 'currentpos' D:\wamp\www\app\App\Admin\Controller\ContentController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002723s ]
+
+[ 2015-01-20T09:39:32+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=public_welcome&_=1421717972384
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.007875s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000418s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.023699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025347s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2015-01-20T09:39:32+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=public_right&_=1421717972369
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003207s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.023944s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000294s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.055730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.060804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002753s ]
+
+[ 2015-01-20T09:39:32+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=public_right
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.008307s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000543s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.033363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035087s ]
+
+[ 2015-01-20T09:39:32+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=public_right
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003521s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.008103s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000283s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.032940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038387s ]
+
+[ 2015-01-20T09:39:34+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=newslist&catid=1&_=1421717974213
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002525s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005649s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000359s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.033388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003470s ]
+
+[ 2015-01-20T09:39:35+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=newslist&grid=datagrid&catid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003148s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.027887s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000388s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.051416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.055747s ]
+SQL: SHOW COLUMNS FROM `app_news` [ RunTime:0.054126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_news` WHERE ( `catid` = 1 ) LIMIT 1   [ RunTime:0.000451s ]
+
+[ 2015-01-20T09:39:36+08:00 ] 127.0.0.1 /index.php?m=admin&c=content&a=add_news_iframe&catid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002969s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.037372s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000545s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.060053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.064272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003125s ]
+
+[ 2015-01-20T09:39:40+08:00 ] 127.0.0.1 /index.php?m=admin&c=upload&a=thumb&width=200&height=100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005114s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000325s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.036646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040746s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2015-01-20T09:49:26+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=public_sessionlife
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005790s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000340s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.022950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2015-01-20T09:59:26+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=public_sessionlife
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `app_setting` [ RunTime:0.005437s ]
+SQL: SELECT `key`,`value` FROM `app_setting`  [ RunTime:0.000339s ]
+NOTIC: [2] unlink(D:\wamp\www\app\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\app\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.024681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
